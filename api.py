@@ -13,19 +13,19 @@ def generate_dates(hour_step):
 
 
 # Cargar los modelos de prediccion:
-file = open('/tmp/arima_temp.pkl', 'rb')
+file = open('/tmp/models/arima_temp.pkl', 'rb')
 arima_temp = pickle.load(file)
 file.close()
 
-file = open('/tmp/arima_hum.pkl', 'rb')
+file = open('/tmp/models/arima_hum.pkl', 'rb')
 arima_hum = pickle.load(file)
 file.close()
 
-file = open('/tmp/rf_temp.pkl', 'rb')
+file = open('/tmp/models/rf_temp.pkl', 'rb')
 rf_temp = pickle.load(file)
 file.close()
 
-file = open('/tmp/rf_hum.pkl', 'rb')
+file = open('/tmp/models/rf_hum.pkl', 'rb')
 rf_hum = pickle.load(file)
 file.close()
 
